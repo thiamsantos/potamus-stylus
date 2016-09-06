@@ -1,0 +1,41 @@
+.button
+  button({
+    background: #E91E63,
+    color: #ccc,
+    js: true,
+    ripple-name: effect
+  })
+
+.button-without-js
+  button({
+    js: false,
+    width: 300px
+  })
+
+.checkbox
+  checkbox({
+    size: 40px,
+    border-color: #ccc,
+    color: #E91E63
+  })
+
+.radio
+  radio({
+    animation-name: radio-fade, // name of the animation of the radio
+    border-color: #9E9E9E,      // border color when the radio is unchecked
+    color: #F44336,             // color when the radio is checked
+    size: 30px                  // size of the checkbox
+  })
+
+.text-field
+  text-field({
+    active-color: #2196F3,                 // color when the input is focused
+    default-color: #9E9E9E,                // color when the input is closed
+    input-name: _sufix-input,              // sufix for input class name
+    js: true,                              // if true classes needed for js
+                                           // // interactions are added
+    label-name: __sufix-label,             // sufix for label class name
+    primary-text-color: rgba(0,0,0,.87),   // color of text on input an label
+    secondary-text-color: rgba(0,0,0,.54), // color of text when label is closed
+    valid-color: #4CAF50                   // color when the input is valid
+  })

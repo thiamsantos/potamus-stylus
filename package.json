@@ -1,0 +1,32 @@
+{
+  "name": "potamus-stylus",
+  "version": "0.0.1",
+  "description": "Stylus mixins for potamus components, that provide a small lib bundled with material design components",
+  "main": "index.js",
+  "scripts": {
+    "test": "stylus -w -u ./index.js -u autoprefixer-stylus test/test.styl",
+    "lint": "stylint ./components/ -c .stylintrc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiamsantos/potamus-stylus.git"
+  },
+  "keywords": [
+    "stylus",
+    "potamus",
+    "material",
+    "design",
+    "components"
+  ],
+  "author": "Thiago Santos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiamsantos/potamus-stylus/issues"
+  },
+  "homepage": "https://github.com/thiamsantos/potamus-stylus#readme",
+  "devDependencies": {
+    "autoprefixer-stylus": "^0.10.0",
+    "stylint": "^1.5.6",
+    "stylus": "^0.54.5"
+  }
+}
