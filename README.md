@@ -1,4 +1,6 @@
 # potamus-stylus
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/thiamsantos/potamus-stylus.svg)](https://greenkeeper.io/)
 Stylus mixins for [potamus](https://github.com/thiamsantos/potamus) components.
 
 ```$ npm install --save-dev potamus-stylus```
